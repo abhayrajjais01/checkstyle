@@ -360,7 +360,7 @@ public final class Violation
         if (this == object) {
             return true;
         }
-        if (object == null || getClass() != object.getClass()) {
+        if (!(object instanceof Violation)) {
             return false;
         }
         final Violation violation = (Violation) object;
