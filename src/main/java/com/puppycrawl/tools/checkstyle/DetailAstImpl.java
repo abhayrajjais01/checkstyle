@@ -26,6 +26,8 @@ import javax.annotation.Nullable;
 
 import org.antlr.v4.runtime.Token;
 
+import com.google.errorprone.annotations.InlineMe;
+
 import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.utils.TokenUtil;
 import com.puppycrawl.tools.checkstyle.utils.UnmodifiableCollectionUtil;
@@ -423,6 +425,8 @@ public final class DetailAstImpl implements DetailAST {
     }
 
     @Override
+    @Deprecated(since = "8.30")
+    @InlineMe(replacement = "this.getChildCount()")
     public int getNumberOfChildren() {
         return getChildCount();
     }

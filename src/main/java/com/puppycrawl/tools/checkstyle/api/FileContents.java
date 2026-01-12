@@ -31,6 +31,8 @@ import com.puppycrawl.tools.checkstyle.grammar.CommentListener;
 import com.puppycrawl.tools.checkstyle.utils.CheckUtil;
 import com.puppycrawl.tools.checkstyle.utils.CommonUtil;
 
+import com.google.errorprone.annotations.InlineMe;
+
 /**
  * Represents the contents of a file.
  *
@@ -375,6 +377,8 @@ public final class FileContents implements CommentListener {
      *              or use {@link AbstractCheck#getFilePath()} to process your own standards.
      */
     @Deprecated(since = "10.2")
+    @InlineMe(replacement = "CheckUtil.isPackageInfo(this.getFileName())",
+            imports = "com.puppycrawl.tools.checkstyle.utils.CheckUtil")
     public boolean inPackageInfo() {
         return "package-info.java".equals(text.getFile().getName());
     }
