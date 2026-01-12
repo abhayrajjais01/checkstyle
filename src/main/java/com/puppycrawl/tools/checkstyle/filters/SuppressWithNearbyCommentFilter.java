@@ -89,6 +89,7 @@ public class SuppressWithNearbyCommentFilter
     /** Control whether to check C++ style comments ({@code //}). */
     // -@cs[AbbreviationAsWordInName] We can not change it as,
     // check's property is a part of API (used in configurations).
+    @SuppressWarnings("InconsistentCapitalization")
     private boolean checkCPP = true;
 
     /** Specify comment pattern to trigger filter to begin suppression. */

@@ -117,6 +117,7 @@ public class SuppressionCommentFilter
     /** Control whether to check C++ style comments ({@code //}). */
     // -@cs[AbbreviationAsWordInName] we can not change it as,
     // Check property is a part of API (used in configurations)
+    @SuppressWarnings("InconsistentCapitalization")
     private boolean checkCPP = true;
 
     /** Specify comment pattern to trigger filter to begin suppression. */

@@ -243,8 +243,9 @@
       -Xep:CanonicalAnnotationSyntax:ERROR
       -Xep:CollectorMutability:ERROR
       -Xep:ConstantNaming:ERROR
-      -Xep:DefaultCharset:ERROR
-      -Xep:DirectReturn:ERROR
+      -Xep:ImmutableEnumChecker:ERROR
+      -Xep:InconsistentCapitalization:ERROR
+      -Xep:InlineMeSuggester:ERROR
       -Xep:EffectivelyPrivate:ERROR
       -Xep:EmptyMethod:ERROR
       -Xep:EnumOrdinal:ERROR
