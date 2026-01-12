@@ -252,6 +252,7 @@
       -Xep:ExplicitEnumOrdering:ERROR
       -Xep:FormatStringConcatenation:ERROR
       -Xep:IdentityConversion:ERROR
+      -Xep:ImmutableEnumChecker:ERROR
       -Xep:ImmutablesSortedSetComparator:ERROR
       -Xep:InvalidParam:ERROR
       -Xep:IsInstanceLambdaUsage:ERROR
