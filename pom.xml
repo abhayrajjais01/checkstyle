@@ -244,10 +244,11 @@
       -Xep:CollectorMutability:ERROR
       -Xep:ConstantNaming:ERROR
       -Xep:DefaultCharset:ERROR
-      -Xep:DirectReturn:ERROR
-      -Xep:EffectivelyPrivate:ERROR
-      -Xep:EmptyMethod:ERROR
-      -Xep:EnumOrdinal:ERROR
+      -Xep:UnnecessaryLongToIntConversion:ERROR
+      -Xep:UnnecessaryStringBuilder:ERROR
+      -Xep:UnsynchronizedOverridesSynchronized:ERROR
+      -Xep:UnusedMethod:ERROR
+      -Xep:UnusedNestedClass:ERROR
       -Xep:ExplicitArgumentEnumeration:ERROR
       -Xep:ExplicitEnumOrdering:ERROR
       -Xep:FormatStringConcatenation:ERROR
