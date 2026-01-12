@@ -403,7 +403,6 @@ public class PackageObjectFactory implements ModuleFactory {
     /**
      * Initialize object by supplier if object is null.
      *
-     * @param <T> type of object
      * @param object object to initialize
      * @param supplier function to initialize if object is null
      * @return object as it was provided in method or initialized
