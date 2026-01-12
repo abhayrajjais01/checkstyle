@@ -51,8 +51,8 @@ import com.puppycrawl.tools.checkstyle.api.FileText;
  *   You may suppress warnings of this check for files that have a logical structure like
  *   build files or log4j configuration files. See SuppressionFilter.
  *   {@code
- *   &lt;suppress checks="OrderedProperties"
- *     files="log4j.properties|ResourceBundle/Bug.*.properties|logging.properties"/&gt;
+ *   <suppress checks="OrderedProperties"
+ *     files="log4j.properties|ResourceBundle/Bug.*.properties|logging.properties"/>
  *   }
  * </p>
  *

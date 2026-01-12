@@ -259,8 +259,9 @@
       -Xep:LexicographicalAnnotationListing:ERROR
       -Xep:LoopOverCharArray:ERROR
       -Xep:MockitoMockClassReference:ERROR
-      -Xep:MockitoStubbing:ERROR
-      -Xep:NestedOptionals:ERROR
+      -Xep:EqualsIncompatibleType:ERROR
+      -Xep:EscapedEntity:ERROR
+      -Xep:ExpectedExceptionChecker:ERROR
       -Xep:OptionalOrElseGet:ERROR
       -Xep:PrimitiveComparison:ERROR
       -Xep:RedundantStringConversion:ERROR
